@@ -1,16 +1,13 @@
 #include <stdio.h>
 
-// Function with arguments and with return value (Addition)
 int add(int a, int b) {
     return a + b;
 }
 
-// Function with arguments and without return value (Subtraction)
 void subtract(int a, int b) {
     printf("Subtraction result: %d\n", a - b);
 }
 
-// Function without arguments and with return value (Multiplication)
 int multiply() {
     int a, b;
     printf("Enter two numbers for multiplication: ");
@@ -18,7 +15,6 @@ int multiply() {
     return a * b;
 }
 
-// Function without arguments and without return value (Division)
 void divide() {
     int a, b;
     printf("Enter two numbers for division: ");
